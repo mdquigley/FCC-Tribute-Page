@@ -1,8 +1,48 @@
+/*
+Color Palette
+#fffacd - Lemon chiffon
+#ffffed - yellow-green
+#dad0c9 - Behr Jodhpur Tan
+#cfcfc4 - Pastel gray
+
+
+
+*/
+body {
+    background-color: #ffffed;
+}
+main {
+  font-family: Helvetica, sans-serif;
+  color: #405b86;
+}
+
+#title {
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
 #img-div {
-  background-color: grey;
-  width: 50%;
+  background-color: #fffacd;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #image {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
+}
+#img-caption {
+  padding-top: 0.7em;
+  font-size: 0.9em;
+  /* color: #405b86; */
+}
+#tribute-info h2 {
+  text-align: center;
+}
+#tribute-info li {
+  font-size: 0.9em;
+  line-height: 1.5em;
+  margin: 0.7em;
 }
