@@ -14,6 +14,8 @@ body {
 main {
   font-family: Helvetica, sans-serif;
   color: #405b86;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 #title {
@@ -34,15 +36,25 @@ main {
   height: auto;
 }
 #img-caption {
-  padding-top: 0.7em;
+  padding-top: 0.75em;
   font-size: 0.9em;
   /* color: #405b86; */
 }
 #tribute-info h2 {
   text-align: center;
 }
+#tribute-info ul {
+  list-style: none;
+  padding-left: 0;
+}
 #tribute-info li {
   font-size: 0.9em;
   line-height: 1.5em;
   margin: 0.7em;
+}
+#tribute-info h3 {
+  text-align: center;
+}
+#tribute-link:hover {
+  color: #ff496c;
 }
