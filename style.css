@@ -12,9 +12,10 @@ body {
     background-color: #ffffed;
 }
 main {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #405b86;
-  max-width: 90%;
+  width: 90%;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -25,7 +26,8 @@ main {
 }
 
 #img-div {
-  background-color: #fffacd;
+  background-color: white;
+  border: 1px solid #405b86;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -37,9 +39,9 @@ main {
 }
 #img-caption {
   padding-top: 0.75em;
-  font-size: 0.9em;
-  /* color: #405b86; */
+  font-size: 0.75em;
 }
+
 #tribute-info h2 {
   text-align: center;
 }
@@ -48,9 +50,19 @@ main {
   padding-left: 0;
 }
 #tribute-info li {
+  display: flex;
+  flex-direction: row;
   font-size: 0.9em;
-  line-height: 1.5em;
-  margin: 0.7em;
+  padding-top: 0;
+  padding-bottom: 1em;
+  /* line-height: 1.5em; */
+  /* margin: 0.7em; */
+}
+#tribute-info p {
+  margin: 0;
+}
+#tribute-info li strong {
+  padding-right: 1em;
 }
 #tribute-info h3 {
   text-align: center;
