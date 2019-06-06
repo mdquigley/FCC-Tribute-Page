@@ -27,11 +27,11 @@ main {
 
 #img-div {
   background-color: white;
-  border: 1px solid #405b86;
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15), 0 6px 6px rgba(0,0,0,0.20);
 }
 #image {
   max-width: 100%;
@@ -55,8 +55,6 @@ main {
   font-size: 0.9em;
   padding-top: 0;
   padding-bottom: 1em;
-  /* line-height: 1.5em; */
-  /* margin: 0.7em; */
 }
 #tribute-info p {
   margin: 0;
